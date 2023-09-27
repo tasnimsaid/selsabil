@@ -736,7 +736,7 @@ function countWord() {
    // ADHAN PRAYER TIMES API endpoint
    const url = `http://api.aladhan.com/v1/hijriCalendar/1945/9?latitude=${latitude}&longitude=${longitude}&method=${meth}`;
 
-   fetch(url)
+   fetch (url)
      .then((response) => response.json())
      .then((data) => {
       
